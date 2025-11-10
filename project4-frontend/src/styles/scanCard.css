@@ -1,0 +1,78 @@
+.scanCard-main-container {
+    border-radius: 10px;
+    width: 75%;
+    height: 80vh;
+    position: fixed;
+    top: 11%;
+    left: 12%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.594);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.scanCard-exit-button {
+    margin-left: auto;
+    font-size: 17px;
+    padding-right: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.739);
+    background-color: rgba(0, 0, 0, 0);
+}
+.scanCard-exit-button:hover {
+    scale: 1.025;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.scanCard-title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.scanCard-info {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.scanCard-warning {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.scanCard-input {
+    margin-bottom: 10px;
+    width: 50%;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(212, 212, 212, 0.713);
+}
+.scanCard-submit-btn {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.742);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.681);
+    background-color: rgba(0, 0, 0, 0);
+}
+.scanCard-submit-btn:hover {
+    scale: 1.025;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
+}

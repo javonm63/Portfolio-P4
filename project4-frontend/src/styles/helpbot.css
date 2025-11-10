@@ -1,0 +1,182 @@
+.helpbot-page-container {
+    width: 99.7vw;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.api-pages-container1 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.api-page-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.api-page-card1-info {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.api-pages-container2 {
+    width: 96%;
+    height: 60vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+.api-page-card2-left-cont {
+    border-radius: 10px;
+    width: 49%;
+    height: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.api-page-card2-right-cont {
+    border-radius: 10px;
+    width: 49%;
+    height: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-grids {
+    width: 90%;
+    height: 80%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section2-info-conts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section2-info-conts:hover {
+    scale: 1.025;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+}
+.section2-info-titles {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section2-info {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 80%;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section2-info-btns {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: rgba(0, 0, 0, 0.512);
+    background-color: rgba(0, 0, 0, 0);
+}
+.section2-info-btns:hover {
+    cursor: pointer;
+    scale: 1.025;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.125);
+}
+.snippet-container {
+    position: absolute;
+    width: 45vw;
+    height: 57vh;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(5px);
+}
+.exit-button {
+    margin-left: auto;
+    font-size: 20px;
+    border: none;
+    color: rgba(0, 0, 0, 0.729);
+    background-color: rgba(0, 0, 0, 0);
+}
+.exit-button:hover {
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+.snippet-title {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.api-pages-container3 {
+    width: 96%;
+    height: 60vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.section3-left-cont {
+    border-radius: 10px;
+    width: 49%;
+    height: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section3-right-cont {
+    border-radius: 10px;
+    width: 49%;
+    height: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1030px) {
+    .api-pages-container2 {
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .api-page-card2-left-cont {
+        width: 95%;
+        padding-bottom: 10px;
+    }
+    .api-page-card2-right-cont {
+        width: 95%;
+    }
+}

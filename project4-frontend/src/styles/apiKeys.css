@@ -1,0 +1,259 @@
+.apikey-page-container {
+    width: 99.7vw;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.apikey-page-title {
+    margin-top: 12.5vh;
+    margin-bottom: 0;
+    margin-left: 5%;
+    font-size: 50px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.apikey-section1-cont {
+    width: 99.9%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apikey-card1-top {
+    width: 96%;
+    height: 17.5%;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+.get-key-info {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.get-key-alert {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(188, 188, 188, 0.549);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.572);
+    z-index: 9999;
+}
+.get-key-info-mob {
+    display: none;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.get-key-button {
+    width: 25%;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+.get-key-button:hover {
+    scale: 1.025;
+    cursor: pointer;
+    background-color: rgba(238, 238, 238, 0.37);
+}
+.apikey-card1-mid {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.apikey-stats-table {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    height: 95%;
+    width: 96.5%;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+}
+.apikey-table-titles {
+    width: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.256);
+}
+.apikey-table-data {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y: scroll;
+}
+.apikey-card1-bot {
+    width: 100%;
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apikey-warning-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.apikey-warning {
+    margin: 0;
+    font-size: 17.5px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.apikey-section2-cont {
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    width: fit-content;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    gap: 2vw;
+    margin-left: 1.8vw;
+    margin-bottom: 5vh;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+}
+.usage-graph-cont {
+    width: 45vw;
+    height: 97.5%;
+}
+.section2-titles {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.usage-stats-cont {
+    width: 44vw;
+    height: 97.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.endpoint-stat-cont {
+    width: 100%;
+    height: 43.5%;
+    display: flex;
+    flex-direction: column;
+}
+.endpoint-usage-table {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid rgba(128, 128, 128, 0.114);
+    border-radius: 10px;
+}
+.endpoint-table-titles {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.114);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.endpoint-table-data {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.quota-stat-cont {
+    width: 100%;
+    height: 43.5%;
+}
+.quota-usage-table {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid rgba(128, 128, 128, 0.114);
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.apikey-section3-cont {
+    width: 95.9%;
+    height: 60vh;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apikey-reminders-cont {
+    border-radius: 10px;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+}
+.apikey-additional-cont {
+    border-radius: 10px;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+}
+.apikey-reminders-title-cont {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.reminders-title-icon {
+    width: 30px;
+    height: 30px;
+    opacity: 60%;
+}
+.apikey-reminder-title {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.604);
+}
+.key-reminders-cont {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.key-reminders {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1030px) {
+    .get-key-info {
+        display: none;
+    }
+    .get-key-info-mob {
+        display: flex;
+    }
+    .get-key-button {
+        width: 40%;
+    }
+}

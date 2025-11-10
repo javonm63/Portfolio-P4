@@ -1,0 +1,230 @@
+.landing-page-container {
+    width: 99.7vw;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.landing-main-cont {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 10vh;
+}
+.landing-section1-cont {
+    margin-top: 30px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.landing-section1-left-cont {
+    border-radius: 10px;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+}
+.landing-title {
+    width: 90%;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+}
+.landing-sub-title {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 350;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.landing-btn1 {
+    width: 40%;
+    height: fit-content;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.601);
+    background-color: rgba(0, 0, 0, 0);
+}
+.landing-btn1:hover {
+    scale: 1.025;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.805);
+}
+.landing-section1-right-cont {
+    border-radius: 10px;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+}
+.landing-section1-img {
+    width: 85%;
+    height: 85%;
+    border-radius: 10px;
+    background-image: url('/landing-background.jpg');
+    background-size: cover;
+    background-position: center;
+    animation-name: imageChange;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes imageChange {
+    0% {
+        background-image: url('/landing-background.jpg');
+    }
+    10% {
+        background-image: url('/landing-background2.jpg');
+    }
+    50% {
+        background-image: url('/landing-background2.jpg');
+    }
+    60% {
+        background-image: url('/landing-background.jpg');
+    }
+}
+.landing-section2-cont {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.landing-bottom-cont {
+    border-radius: 10px;
+    width: 96%;
+    height: 90%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/landing-background3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.landing-bottom-title {
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.416);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.72);
+    border-radius: 10px;
+}
+.landing-bottom-main-title {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.416);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.72);
+    border-radius: 10px;
+}
+.logOut-card {
+    border-radius: 10px;
+    width: 25vw;
+    height: 25vh;
+    position: absolute;
+    top: 11vh;
+    right: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.signup-login-card {
+    border-radius: 10px;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    top: 11vh;
+    left: 59.5%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.511);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup-exit-button {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border: none;
+    font-size: 17px;
+    opacity: 75%;
+    background-color: rgba(0, 0, 0, 0);
+}
+.signup-exit-button:hover {
+    scale: 1.025;
+    cursor: pointer;
+    opacity: 1;
+    font-weight: bold;
+}
+.signup-title {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.signup-sub-title {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup-input {
+    margin-bottom: 20px;
+    width: 50%;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.257);
+}
+.signup-button {
+    width: 30%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+.signup-button:hover {
+    scale: 1.025;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1030px) {
+    .landing-title {
+        font-size: 35px;
+    }
+    .landing-sub-title {
+        font-size: 20px;
+    }
+}

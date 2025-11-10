@@ -1,0 +1,102 @@
+.support-page-container {
+    width: 99.7vw;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.support-main-cont {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.support-left-cont {
+    border-radius: 10px;
+    width: 47%;
+    height: 80%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support-avatar-speech {
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(255, 255, 255, 0.465);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.458);
+}
+.support-avatar-cont {
+    width: 75%;
+    height: 75%;
+    background-image: url('https://api.dicebear.com/9.x/bottts/svg?seed=Felix-baseColor=00acc1');
+    background-size: cover;
+    background-position: center;
+}
+.support-right-cont {
+    border-radius: 10px;
+    width: 47%;
+    height: 80%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us-title {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-us-inputs {
+    width: 60%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+.contact-us-inputs:hover {
+    background-color: rgb(240, 240, 240);
+}
+.contact-us-message-input {
+    width: 60%;
+    height: 20%;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 20px;
+}
+.contact-us-submit-btn {
+    width: 45%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.68);
+    background-color: rgba(128, 128, 128, 0.602);
+}
+.contact-us-submit-btn:hover {
+    scale: 1.025;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.805);
+    background-color: rgba(161, 161, 161, 0.602);
+}
