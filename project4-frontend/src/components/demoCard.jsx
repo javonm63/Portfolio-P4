@@ -11,10 +11,10 @@ function DemoCard({btn, btn2, endpoint, message}) {
 
     const testHelp = async () => {
         try {
-            const req = await fetch(`http://localhost:5001/api/bot/${endpoint}`, {
+            const req = await fetch(`https://portfolio-p4-backend.onrender.com/api/bot/${endpoint}`, {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer 66a132d3-8301-49b7-bb40-03d5e66ca5d5',
+                    'Authorization': 'Bearer d59ca774-e345-4324-b862-e98a09eb1301',
                     'Content-Type': 'application/json'},
                 body: JSON.stringify({
                     sessionId, 
@@ -97,10 +97,10 @@ function DemoCard({btn, btn2, endpoint, message}) {
                 ]}
         }
         try {
-            const req = await fetch(`http://localhost:5001/api/bot${e.target.value}`, {
+            const req = await fetch(`https://portfolio-p4-backend.onrender.com/api/bot${e.target.value}`, {
                 method: 'POST',
                 headers: {
-                    'Authorization': 'Bearer 66a132d3-8301-49b7-bb40-03d5e66ca5d5',
+                    'Authorization': 'Bearer d59ca774-e345-4324-b862-e98a09eb1301',
                     'Content-Type': 'application/json'},
                 body: JSON.stringify(body),
                 credentials: 'include'

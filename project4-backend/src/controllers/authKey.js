@@ -20,6 +20,7 @@ export async function AuthKey(req, res) {
     }
 
     const apiKey = uuidv4();
+    console.log(apiKey)
 
     const query = `
       INSERT INTO users (email, apikey)
@@ -36,6 +37,7 @@ export async function AuthKey(req, res) {
   } catch (err) {
     console.error('AuthKey error:', err.message);
     if (!res.headersSent) {
+      console.error(err)
       return res.status(500).json({ message: 'Server error', error: err.message });
     }
   }

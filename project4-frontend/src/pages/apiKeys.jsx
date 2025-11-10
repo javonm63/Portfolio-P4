@@ -40,7 +40,7 @@ function ApiKey() {
             }
             setApiKeyInfo(data.key)
             try {
-                const req = await fetch('http://localhost:5001/auth/quota', {
+                const req = await fetch('https://portfolio-p4-backend.onrender.com/auth/quota', {
                     method: 'GET',
                     headers: {'Authorization': `Email ${email}`, 'Content-Type': 'application/json'},
                     credentials: 'include'
@@ -67,7 +67,7 @@ function ApiKey() {
 
     const getApiKey = async (e) => {
         const email = JSON.parse(sessionStorage.getItem('myem')).email
-        const req = await fetch('http://localhost:5001/auth/generate', {
+        const req = await fetch('https://portfolio-p4-backend.onrender.com/auth/generate', {
             method: 'POST', 
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email: email}),
